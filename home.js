@@ -1,3 +1,3 @@
-window.onbeforeunload = function () {
-  return "Did you save your stuff?"
-};
+window.onbeforeunload = function(){
+  return true;
+}
