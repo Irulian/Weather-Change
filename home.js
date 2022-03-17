@@ -1,3 +1,3 @@
-window.onbeforeunload = function(){
+window.onbeforeunload = function () {
   return true;
 }
