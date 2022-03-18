@@ -16,8 +16,9 @@ hr {
 #sidebar-div {
   width: 200px;
   position: fixed;
-  bottom: 340px;
+  bottom: 220px;
   left: 70px;
+  z-index: 10;
 }
 #sidebar {
   color: #FFFDD0;
@@ -72,7 +73,7 @@ hr {
   font-weight: 300;
   color: #FFFDD0;
   text-align: center;
-  bottom: 280px;
+  bottom: 150px;
   left: 100px;
   z-index: 99;
   box-shadow: 5px 5px 10px 5px #0a0a0a;
@@ -120,4 +121,23 @@ hr {
 #climate-gov-lnk {
   text-decoration: none;
   color: #7289da; 
+}
+#conclusion {
+  color: #FFFDD0;
+  text-align: center;
+}
+img {
+  position: relative;
+  bottom: -30px;
+  left: 550px;
+  border-radius: 10px;
+  height: 200px;
+  width: 400px;
+}
+img:hover {
+  bottom: -30px;
+  left: 350px;
+  z-index: 900;
+  width: 800px;
+  height: 400px;
 }
