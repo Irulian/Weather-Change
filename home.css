@@ -133,6 +133,7 @@ img {
   border-radius: 10px;
   height: 200px;
   width: 400px;
+  cursor: pointer;
 }
 img:hover {
   bottom: -30px;
