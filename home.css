@@ -39,3 +39,85 @@ hr {
   color: #FFFDD0;
   text-align: center;
 }
+#solution {
+  color: #FFFDD0;
+  text-align: center;
+}
+#bib-div {
+  visibility: hidden;
+  z-index: 99;
+  position: relative;
+  width: 900px;
+  margin: auto;
+  box-shadow: 10px 10px 10px 10px #0a0a0a;
+  background-color: #161718;
+}
+#nasa-earth {
+  color: #FFFDD0;
+  text-align: center;
+}
+#nasa-earth-lnk {
+  text-decoration: none;
+  color: #7289da; 
+}
+#open {
+  position: absolute;
+  background-color: #7289da;
+  padding:0.35em 1.2em;
+  border:0.1em solid #7289da;
+  margin:0 0.3em 0.3em 0;
+  border-radius: 12px;
+  box-sizing: border-box;
+  font-family: monospace;
+  font-weight: 300;
+  color: #FFFDD0;
+  text-align: center;
+  bottom: 280px;
+  left: 100px;
+  z-index: 99;
+  box-shadow: 5px 5px 10px 5px #0a0a0a;
+}
+#open:hover {
+  color: #FFFDD0;
+  background-color: #4467e3;
+  border:0.1em solid #4467e3;
+  cursor: pointer;
+}
+#close {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: #7289da;
+  border:0.1em solid #7289da;
+  margin:0 0.3em 0.3em 0;
+  border-radius: 12px;
+  box-sizing: border-box;
+  font-family: monospace;
+  font-weight:300;
+  font-size: 20px;
+  color: #FFFDD0;
+  text-align: center;
+  box-shadow: 2px 2px 2px 2px #0a0a0a;
+}
+#close:hover {
+  color: #FFFDD0;
+  background-color: #4467e3;
+  border:0.1em solid #4467e3;
+  cursor: pointer;
+}
+#nasa-climate {
+  color: #FFFDD0;
+  text-align: center;
+}
+#nasa-climate-lnk {
+  text-decoration: none;
+  color: #7289da; 
+}
+#climate-gov {
+  color: #FFFDD0;
+  text-align: center;
+}
+#climate-gov-lnk {
+  text-decoration: none;
+  color: #7289da; 
+}
